@@ -10,7 +10,7 @@ Contribute an idea or collaborate on a topic:\
 https://github.com/orgs/SciLifeLab/projects/3
 
 ## Examples of ideas that could be developed into breakout topics:
-* **Shared software development practices across SciLifeLab**\
+* **[Shared software development practices across SciLifeLab](https://github.com/SciLifeLab/data-science-days-2027/issues/3)**\
   Compare development guidelines and established practices from the Data Centre, NBIS and other platforms. Identify useful approaches to code quality, testing, documentation, security and collaboration that could be adopted more widely.\
   *Possible result:* A common RSE practices checklist and a shortlist of improvements to existing development guidelines.
 * **AI agents for discovering SciLifeLab tools, services and expertise**\
