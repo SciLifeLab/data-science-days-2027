@@ -1,0 +1,56 @@
+# Issue template for proposing a project for the Data Science Days 2027.
+---
+name: Project Proposal
+description: Suggest a project for the hackathon-style breakout sessions during the Data Science Days 2027.
+
+title: ""
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Project summary
+      description: |
+        - What would the participants work on? 
+        - What problem would it solve? 
+        - Who would this benefit? 
+    validations:
+      required: true
+  
+  - type: textarea
+    id: tasks
+  
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Project outcome
+      description: Achievables / concrete outcomes that the group works toward during the event. 
+      placeholder: E.g. "A GitHub workflow published to the GitHub Actions marketplace."
+    validations:
+      required: true
+  
+  - type: textarea
+    id: skills
+    attributes:
+      label: Useful skills
+      description: Programming languages, tools, or domain knowledge which would be useful
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: lead
+    attributes: 
+      label: Would you be willing to lead this project during the event?
+      options:
+        - "Yes, I can lead it"
+        - "Yes, I can co-lead it (name them below)"
+        - "No, I'd like someone else to lead it"
+    validations:
+      required: true
+      
+  - type: input
+    id: contact
+    attributes:
+      label: Co-lead or other contacts 
+      placeholder: Name, affiliation, GitHub handle
+    validations:
+      required: false
