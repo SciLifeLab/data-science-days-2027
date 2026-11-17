@@ -3,7 +3,7 @@
 name: Project Proposal
 description: Suggest a project for the hackathon-style breakout sessions during the Data Science Days 2027.
 
-title: ""
+title: "[Project]: "
 body:
   - type: textarea
     id: summary
