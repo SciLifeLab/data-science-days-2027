@@ -44,7 +44,7 @@ body:
     attributes:
       label: Tasks
       description: |
-        List of a few examples of concrete and actionable things to do during the project.
+        List examples of concrete and actionable things to do during the project.
         This will help the organisers and possible participants understand the scope of the project,
         and make it easier to get started.
     validations:
