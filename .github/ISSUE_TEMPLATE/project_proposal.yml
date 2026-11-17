@@ -16,8 +16,19 @@ body:
     validations:
       required: true
   
-  - type: textarea
-    id: tasks
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      description: Which theme would this project be a part of?
+      options:
+        - Reproducible workflows & software development
+        - AI and automation for data science 
+        - Data interoperability and metadata harmonisation
+        - Shared computational infrastructure and technical solutions
+        - Cross-platform data integration and scientific applications
+    validations:
+      required: true
   
   - type: textarea
     id: outcome
@@ -32,7 +43,7 @@ body:
     id: skills
     attributes:
       label: Useful skills
-      description: Programming languages, tools, or domain knowledge which would be useful
+      description: Programming languages, tools, or domain knowledge which could be useful
     validations:
       required: false
   
