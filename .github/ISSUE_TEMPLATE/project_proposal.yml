@@ -38,6 +38,17 @@ body:
       placeholder: E.g. "A GitHub workflow published to the GitHub Actions marketplace."
     validations:
       required: true
+
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: |
+        List of a few examples of concrete and actionable things to do during the project.
+        This will help the organisers and possible participants understand the scope of the project,
+        and make it easier to get started.
+    validations:
+      required: true
   
   - type: textarea
     id: skills
